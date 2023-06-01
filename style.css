@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif;  */
 }
 
 nav {
@@ -38,7 +38,7 @@ nav {
 
 .requestDemo {
   border: 1px solid #224229;
-  padding: 7px 20px;
+  padding: 10px 25px;
   text-decoration: none;
   color: black;
 }
@@ -57,13 +57,27 @@ nav {
 .introTextContent {
   width: 50%;
 }
-.introTextContent h1 {
+.container h1 {
   color: #224229;
-  font-family: "Libre Baskerville", serif;
+  font-family: "Libre Baskerville";
+  font-weight: 400;
   font-size: 40px;
 }
-.introTextContent p {
+.container p {
   color: #888888;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 20px;
+  font-weight: 200px;
+}
+
+.container h4 {
+  color: #212529;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
 }
 
 .introImage {
@@ -79,4 +93,88 @@ nav {
 .container {
   margin-left: 150px;
   margin-right: 150px;
+}
+
+/*Section About, why*/
+#about{
+  line-height: 2rem;
+  padding-bottom: 15px;
+}  
+
+.aboutImage img {
+  width: 400px;
+  height: initial;
+}
+
+.aboutImage {
+  width: 50%;
+  padding-top: 50px;
+}
+
+/* Section Compression */
+h3{
+  color: #224229;
+  text-transform: uppercase;
+  font-family: "Libre Baskerville";
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.icon{
+  background-image: url(/images/icon-title.webp);
+  background-position: center;
+	background-repeat: no-repeat;
+  padding-bottom: 10px;
+	height: 40px;
+	width: 100%;
+} 
+
+.introduction{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-right: 150px; 
+  padding : 50px;
+} 
+
+.image{
+  width: 300px;
+  height:auto;
+  border-radius: 10px;
+}
+
+.image:hover{
+  transition: all ease-in-out 0.3s;
+}
+.arrow{
+  width: 100px;
+  height: auto;
+}
+
+.wholeContent > div{
+  gap: 100px;
+  padding: 30px;
+}
+
+.wholeContent{
+  display: flex;
+  justify-content: space-between;
+  gap: 80px;
+}
+
+.secondContent{
+  margin-top: 30px;
+}
+
+/* Footer */
+.footerImage{
+  background-image: url(/images/background-plants.webp);
+  background-attachment: fixed;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100%;
+  position: relative;
 }
