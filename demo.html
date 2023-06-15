@@ -1,0 +1,128 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request Demo</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- fonts poppins  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font libre baskerville -->
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap"
+      rel="stylesheet"
+    />
+
+</head>
+<body>
+    
+    <nav>
+        <div>
+          <img src="/images/greenieLogo.png" alt="" class="logo" />
+        </div>
+
+        <div class="navItems">
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Importance of Greenifying</a></li>
+            <li><a href="#">How Does it Work?</a></li>
+            <li><a href="#" class="requestDemo">Request Demo</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <main>
+
+        <section class="demo container">
+          <div class="aboutImage">
+            <h1>Request a Demo</h1>
+            <img src="/images/image3.png" alt="" class="mode"/>
+          </div>
+
+          <form action=" " class="personalData">
+            <div class="row">
+              <div class="inputs">
+                <label for="firstName">First Name <b class="red">*</b></label><br />
+                  <input type="text" name="" id="firstName" placeholder="Your first name" autocomplete="on" required />
+              </div>
+              <div class="inputs">
+                <label for="lastName">Last Name</label><br />
+                  <input type="text" name="" id="lastName" placeholder="Your last name" autocomplete="on" />
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="inputs">
+                <label for="workEmail">Work Email <b class="red">*</b></label><br />
+                  <input type="email" name="" id="workEmail" placeholder="example@company.com" autocomplete="on" required />
+              </div>
+              <div class="inputs">
+                <label for="phoneNumber">Phone Number</label><br />
+                  <input type="tel" name="" id="phoneNumber" placeholder="(555) 555-5555" autocomplete="on" />
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="inputs">
+                <label for="country">Country</label><br />
+                  <input type="text" name="" id="country" placeholder="Your Country" />
+              </div>
+              <div class="inputs">
+                <label for="company">Company <b class="red">*</b></label><br />
+                  <input type="text" name="" id="company" placeholder="Your Company Name" required />
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="inputs">
+                <label for="department">Department</label><br />
+                <select name="department" id="department">
+                  <optgroup>
+                    <option value="sekect">Please select one</option>
+                    <option value="dev">Dev/ Engineering/ IT</option>
+                    <option value="sales">Sales</option>
+                    <option value="support">Support & Success</option>
+                    <option value="marketing">Marketing</option>
+                    <option value="finance">Finance/ Legal/ Ops</option>
+                    <option value="people">HR/ People</option>
+                    <option value="strategy">Strategy/ Biz Dev</option>
+                  </optgroup>
+                </select>
+              </div>
+
+              <div class="inputs">
+                <label for="role" class="role">Role</label><br />
+                 <select name="role" id="role">
+                  <optgroup>
+                    <option value="select">Please select one</option>
+                    <option value="cxo">CXO</option>
+                    <option value="vp">VP</option>
+                    <option value="director">Director</option>
+                    <option value="marketing">Marketing</option>
+                    <option value="manager">Manager</option>
+                    <option value="contributor">Contributor</option>
+                  </optgroup>
+                  </select>
+              </div>
+            </div>
+
+            <div class="warning">
+              <p class="red">Fields marked with an asterisk(*) are required.</p>
+              <button type="submit" class="demo-btn">Sign Up</button>
+            </div>
+
+          </form>
+        </section>
+      </main>
+  
+</body>
+</html>
